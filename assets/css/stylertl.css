@@ -1,0 +1,383 @@
+body {
+    direction: rtl;
+    text-align: right;
+}
+.main-header .menu-left-content .logo-box {
+    position: relative;
+    margin-left: 100px;
+    margin-right: 0px;
+}
+.main-header .menu-left-content .logo-box:before {
+    left: -54px;
+    right: unset;
+    top: -4px;
+}
+.main-header .menu-left-content {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 28px 0px 28px 50px;
+    margin-right: 30px;
+    border-right: none;
+    border-left: 1px solid #e2e2e2;
+}
+.main-menu {
+    float: right;
+}
+.main-menu .navigation > li{
+    float: right;
+}
+.main-menu .navigation > li > a:before {
+    content: ']';
+    left: 0px;
+    top: 30px;
+}
+.main-menu .navigation > li > a:after {
+    content: '[';
+    right: 0px;
+    top: 31px;
+}
+.banner-section {
+    direction: ltr;
+    position: relative;
+}
+.funfact-block-one .inner-box .count-outer{
+    margin-left: 30px;
+    margin-right: 0px;
+}
+.funfact-block-one .inner-box .icon-box{
+    margin-left: 30px;
+    margin-right: 0px;
+}
+.service-block-one .inner-box .lower-content .btn-box a span:before {
+    position: absolute;
+    content: "\f104";
+}
+.theme-btn span {
+    padding-left: 40px;
+    padding-right: 0px;
+}
+.theme-btn span:before {
+    position: absolute;
+    content: "\f060";
+    top: -1px;
+    left: 0px;
+    right: unset;
+}
+.case-section {
+    direction: ltr;
+    text-align: right;
+    position: relative;
+    padding-top: 114px;
+}
+.case-section .owl-dots button {
+    position: absolute;
+    top: 0px;
+    left: 110px;
+    right: unset;
+}
+.case-section .owl-dots:before {
+    position: absolute;
+    content: '';
+    left: 44px;
+    right: unset;
+    top: 58px;
+}
+.about-section:before {
+    position: absolute;
+    right: 0px;
+    left: unset;
+}
+.case-section .owl-dots::after {
+    position: absolute;
+    left: 0px;
+    right: unset;
+    top: 53px;
+}
+.case-section .owl-nav {
+    position: absolute;
+    left: -10px;
+    top: -93px;
+    right: 0px;
+    text-align: left;
+}
+.video-section .curve-text {
+    position: absolute;
+    top: 12px;
+    left: 0px;
+    right: unset;
+    width: 103px;
+    height: 103px;
+}
+.clients-section {
+    direction: ltr;
+}
+.testimonial-section {
+    direction: ltr;
+}
+.testimonial-section .owl-nav {
+    position: absolute;
+    left: 40%;
+    right: unset;
+    bottom: 38px;
+}
+.shop-block-one .inner-box .image-box h5 {
+    position: absolute;
+    right: 0px;
+    left: unset;
+    bottom: 14px;
+    padding-right: 30px;
+    padding-left: 0px;
+}
+.shop-block-one .inner-box .image-box .offer-box {
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    right: unset;
+}
+.contact-section .content-inner .image-layer {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: unset;
+}
+.main-footer .contact-widget:before {
+    position: absolute;
+    top: -57px;
+    left: 20px;
+    right: unset;
+}
+.main-footer .contact-widget {
+    position: relative;
+    display: block;
+    padding-left: 70px;
+    padding-right: 0px;
+    margin-top: 5px;
+}
+.growth-section .image-layer {
+    position: absolute;
+    bottom: 0px;
+    left: 15%;
+    right: unset;
+}
+.progress-box .count-text {
+    position: absolute;
+    top: -41px;
+    left: 0px;
+    right: unset;
+}
+.progress-box .bar-inner:before {
+    position: absolute;
+    top: -4px;
+    left: -14px;
+    right: unset;
+    clip-path: polygon(100% 0%, 0% 50%, 100% 100%, 100% 100%, 100% 0%);
+}
+.growth-section .count-box .count-1{
+    right: 0px;
+    left: unset;
+    margin-left: -6px;
+  }
+  
+  .growth-section .count-box .count-2{
+    right: 20%;
+    left: unset;
+  }
+  
+  .growth-section .count-box .count-3{
+    right: 40%;
+    left: unset;
+  }
+  
+  .growth-section .count-box .count-4{
+    right: 60%;
+    left: unset;
+  }
+  
+  .growth-section .count-box .count-5{
+    right: 80%;
+    left: unset;
+  }
+  
+  .growth-section .count-box .count-6{
+    left: -13px;
+    right: unset;
+  }
+  .main-menu .navigation > li:first-child {
+    margin-right: 0px !important;
+    margin-left: 22px !important;
+}
+.pull-right {
+    float: left;
+}
+.our-shop .item-shorting .short-box p {
+    margin-left: 5px;
+}
+.our-shop .item-shorting .short-box .nice-select {
+    font-size: 17px;
+    color: #1c1c1c;
+    text-transform: capitalize;
+    padding-left: 50px;
+    padding-right: 0;
+    font-weight: 400;
+}
+.our-shop .item-shorting .short-box .nice-select:after {
+    width: 10px;
+    height: 10px;
+    border-bottom: 2px solid #a9a6a5;
+    border-right: 2px solid #a9a6a5;
+    left: 3px;
+    right: unset;
+}
+.nice-select .option {
+    text-align: right;
+}
+.pagination-wrapper {
+    padding-top: 30px;
+    direction: ltr;
+}
+.main-menu .navigation > li > ul > li {
+    position: relative;
+    width: 100%;
+    padding: 0px 30px;
+    padding-left: 0px;
+}
+.main-menu .navigation > li > ul > li > a, .main-menu .navigation > li > .megamenu li > a {
+    position: relative;
+    display: block;
+    line-height: 24px;
+    font-weight: 400;
+    font-size: 17px;
+    font-family: "El Messiri", serif;
+    font-optical-sizing: auto;
+    color: #1d1d1b;
+    text-align: right;
+}
+.main-menu .navigation > li > ul > li.dropdown > a:after {
+    font-family: 'Font Awesome 6 Free';
+    content: "\f104";
+    position: absolute;
+    left: 20px;
+    right: unset;
+    top: 12px;
+}
+.main-menu .navigation > li > ul > li > ul {
+    position: absolute;
+    right: 100%;
+    top: 0%;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+.main-menu .navigation > li > ul > li > ul > li > a {
+    position: relative;
+    text-align: right;
+}
+.main-menu .navigation > li > ul > li > ul > li {
+    position: relative;
+    width: 100%;
+    padding: 0px 30px;
+    padding-left: 0px;
+}
+.service-block-two .inner-box .lower-content .btn-box a span:before {
+    position: absolute;
+    content: "\f060";
+    font-family: 'FontAwesome';
+}
+.service-block-two .inner-box .lower-content:before {
+    right: 0px;
+    left: unset;
+}
+.service-block-two .inner-box .image-box .icon-box {
+    position: absolute;
+    top: 30px;
+    left: 0px;
+    right: unset;
+    width: 0px;
+}
+.service-block-two .inner-box .image-box .image:after {
+    position: absolute;
+    content: '';
+    width: 0px;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    right: unset;
+    z-index: 1;
+    opacity: 0.9;
+    clip-path: polygon(100% 0%, 0% 0%, 0% 100%, 0% 100%, 360% 0%);
+    transition: all 500ms ease;
+}
+.service-block-two .inner-box:hover .image-box h2 {
+    left: -63px;
+    right: unset;
+}
+.service-block-two .inner-box .image-box h2 {
+    position: absolute;
+    top: 208px;
+    left: -170px;
+    right: unset;
+}
+.service-block-two .inner-box .image-box h3 {
+    position: absolute;
+    padding-right: 30px;
+}
+.shop-details-content .bxslider .thumb-box li {
+    position: relative;
+    float: right;
+    margin-left: 12px;
+    width: 126px;
+    height: 126px;
+}
+.shop-details-content .content-box .product-highlights li {
+    position: relative;
+    display: block;
+    padding-right: 180px;
+    padding-left: 0;
+    margin-bottom: 12px;
+}
+.shop-details-content .content-box .product-highlights li h5 {
+    position: absolute;
+    right: 0px;
+    left: unset;
+    top: 2px;
+}
+.contact-style-two .form-inner .form-group .nice-select:after {
+    left: 33px;
+    right: unset;
+    top: 25px;
+}
+.nice-select .list {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 0 1px rgba(68, 68, 68, 0.11);
+    box-sizing: border-box;
+    margin-top: 4px;
+    opacity: 0;
+    overflow: hidden;
+    padding: 0;
+    pointer-events: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    left: unset;
+}
+.contact-style-two .form-inner .form-group .nice-select {
+    line-height: 62px;
+    text-transform: capitalize;
+    text-align: right !important;
+}
+.page-title .bread-crumb li {
+    position: relative;
+    color: #fff;
+    margin-left: 12px;
+    margin-right: 0;
+}
+.page-title .bread-crumb li:before {
+    position: absolute;
+    content: '';
+    width: 2px;
+    height: 2px;
+    left: -10px;
+    right: unset;
+    bottom: 7px;
+}
